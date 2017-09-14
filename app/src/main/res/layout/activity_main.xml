@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bodor.com.colortextviewdemo.MainActivity">
+
+    <loic.teillard.colortextview.ColorTextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:clt_spaces ="true"
+        app:clt_color1 = "#0f0"
+        app:clt_txt1 = "hello"
+        app:clt_color2 = "#f00"
+        app:clt_txt2 = "world"
+        />
+
+</RelativeLayout>
